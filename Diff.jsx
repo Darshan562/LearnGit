@@ -1,9 +1,5 @@
-import React from 'react'
+const a = 10;
+const b = 3;
 
-const Diff = () => {
-  return (
-    <div>Diff</div>
-  )
-}
-
-export default Diff
+const c = a - b;
+console.log(`${c}`);
